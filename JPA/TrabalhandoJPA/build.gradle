@@ -35,7 +35,7 @@ dependencies {
 
     // Automatizador de criacao de Metamodels
     // https://mvnrepository.com/artifact/org.hibernate/hibernate-jpamodelgen
-//    annotationProcessor('org.hibernate:hibernate-jpamodelgen:5.4.13.Final')
+    annotationProcessor('org.hibernate:hibernate-jpamodelgen:5.4.13.Final')
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
